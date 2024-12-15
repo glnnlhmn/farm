@@ -2,6 +2,7 @@
 
 from animals import Chicken, Cow, Pig
 
+
 def main():
     chicken = Chicken()
     cow = Cow()
@@ -18,6 +19,7 @@ def main():
     print(pig.interact_with_chicken())
     print(pig.interact_with_cow())
     print(pig.interact_with_others(chicken, cow))
+
 
 if __name__ == "__main__":
     main()
