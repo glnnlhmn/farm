@@ -69,3 +69,7 @@ Moving forward, the following best practices were adopted to minimize the risk o
 - **Refactoring Dependency Chains**: Where possible, refactor tightly-coupled components into shared utility modules to break direct cyclical dependencies.
 
 By applying these changes, the project now avoids issues with circular references and ensures that the interdependent code works reliably without hindering maintainability.
+
+#### FarmAnimal Module added
+
+[See details](FarmAnimal.md)
